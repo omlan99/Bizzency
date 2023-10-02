@@ -1,0 +1,7 @@
+#topbar{
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+.nav-link{
+    color: var(--black);
+}
