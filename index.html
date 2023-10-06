@@ -4,37 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bizzency</title>
-    <!-- google fonts -->
+    <!-- google fonts link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
-    <!-- google fonts -->
+    <!-- bootstrap css link-->
     <link rel="stylesheet" href="/Css/bootstrap.min.css">
+    <!-- common css link -->
     <link rel="stylesheet" href="/Css/common.css">
+    <!-- style css link -->
     <link rel="stylesheet" href="/Css/style.css">
+    <!-- responosive css link -->
     <link rel="stylesheet" href="/Css/responsive.css">
 </head>
 <body>
+  <!-- header section start -->
     <!--topbar section start-->
       <section id="topbar">
-            <div class="container d-flex">
-                <div>
-                    <p>Welcome to our Company</p>
-                </div>
-                <div class="ms-auto">
-                    <p>Opening Hour: 08:00 a.m to 10:00 p.m</p>
-                </div>
-    		</div>
+        <div class="container d-flex">
+          <div>
+           <p>Welcome to our Company</p>
+          </div>
+          <div class="ms-auto">
+            <p>Opening Hour: 08:00 a.m to 10:00 p.m</p>
+          </div>
+        </div>
       </section>
     <!--topbar section end-->
 
     <!--nav section start-->
-    <nav class="navbar navbar-expand-lg ">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="./images/Bizzency.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"        aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+         </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -56,29 +60,89 @@
                 <a class="nav-link active" aria-current="page" href="#">Contact</a>
               </li>
             </ul>  
-                
-            
           </div>
         </div>
       </nav>
-     
+
     <!--nav section end-->
+  <!-- header section end -->
+
+  <!-- main section start  -->
     <!--banner section start-->
       <section id="banner" style="background-image: url(./images/banner.jpg);">
-            <div class="container row">
-                <div class="col-lg-6">
-                    <h2>Your</h2>
-                    <h1>Success</h1>
-                    <h3>Our Ambition</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
-                    </p>
-                    <a class="btn" href="#">Explore More</a>
-                </div>
-    		</div>
+        <div class="container">
+          <div class=" row ">
+            <div class="col-lg-6">
+              <h2>Your</h2>
+              <h1>Success</h1>
+              <h3>Our Ambition</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+              </p>
+              <a class="btn" href="#">Explore More</a>
+            </div>
+          </div>
+        </div>
       </section>
     <!--banner section end-->
-<script src="./js/bootstrap.bundle.min.js"></script>
-<script src="/js/script.js"></script>
+    <!-- about section start-->
+      <section id="about" style="background-image: url(./images/about.png);">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 section_heading">
+              <h4>Who we are</h4>
+              <h2>About us</h2>
+              <p>
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodpor nt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exion ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <ul>
+                <li>We are the best in the line, worldwide.</li>
+                <li>No more wasting time, Eveeryone can animate.</li>
+                <li>We work with orgnizations to craft immersive customer experience.</li>
+                <li>We are committed to make your business successful.</li>
+                <li>We can make your business successful that you had not ever think. </li>
+              </ul>
+              <div>
+                <a class="btn" href="#">Know More</a>
+                <a class="btn" href="#">Read Later</a>
+              </div>
+            </div>
+          </div>
+    		</div>
+      </section>
+    <!-- about section end-->   
+    <!--skill section start-->
+      <section id="skill" style="background-image: url(./images/skill.png);">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 ms-auto  section_heading">
+              <h3>What can we do?</h3>
+              <h2>Our Skills</h2>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodpor nt ut labore et dolore magna aliqua.
+              </p>  
+
+            </div>
+            <div class="skill_name">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+
+          </div>
+    		</div>
+      </section>
+    <!--skill section end-->       
+
+  <!-- main section end -->
+  <!-- bootstrap js src  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- script js src -->
+    <script src="/js/script.js"></script>
 </body>
 </html>
