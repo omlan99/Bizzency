@@ -86,10 +86,32 @@
 /* about css end*/ 
 /* skill css start*/
 #skill{
-    text-align: right;
     background-position: left;
     background-repeat: no-repeat;
     padding: 100px 0;
 }  
 
 /* skill css end*/ 
+/* service css start*/
+#service{
+    padding: 60px 0;
+    background-color: var(--white-gray);
+}
+#service .container .service_details .row .service_item .image{
+    padding: 62px 20px;
+    background-color: var(--dark-gray);
+}
+#service .container .service_details .row .service_item .details{
+    padding: 28px 20px;
+    background-color: var(--light-gray);
+}
+#service .container .service_details .row .service_item .details h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+#service .container .service_details .overlay{
+    top: 20px;
+    left: 0;
+    background-color: red;
+}
+/* service css end*/
