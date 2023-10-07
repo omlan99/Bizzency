@@ -67,6 +67,10 @@
     padding-top: 30px;
     padding-bottom: 33px;
 }
+#banner .container a{
+    background-color: var(--purple);
+    color: var(--white);
+}
 /* banner css end*/
 
 /* about css start*/
@@ -110,8 +114,43 @@
     font-weight: 400;
 }
 #service .container .service_details .overlay{
-    top: 20px;
-    left: 0;
-    background-color: red;
+    position: absolute;
+    inset: 0;
+    background-color: var(--dark-blue);
+    transform: scale(0);
+    transition: 0.4s;
+}
+#service .container .service_details .overlay img{
+    padding:30px 155px 20px 155px;
+
+}
+#service .container .service_details .overlay h3{
+    font-size: 20px;
+    color: var(--white);
+    padding-top: 100px;
+    text-align: center;
+}
+#service .container .service_details .overlay a{
+    color: var(--dark-blue);
+    background-color: var(--white);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 20px);
+}
+#service .container .service_details .overlay a:hover{
+    background-color: var(--yellow);
+}
+#service .container .service_details .row .service_item:hover .overlay{
+    transform: scale(1);
 }
 /* service css end*/
+/* portfolio css start*/
+#portfolio{
+    padding: 100px 0;
+}
+/* portfolio css end*/
