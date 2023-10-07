@@ -33,6 +33,12 @@ h3{
 .btn:hover{
     background-color: var(--yellow);
 }
+.pad-100{
+    padding: 100px 0;
+}
+.pad-60{
+    padding: 60px 0;
+}
 .section_heading h4{
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif;

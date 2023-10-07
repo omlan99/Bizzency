@@ -101,15 +101,15 @@
     padding: 60px 0;
     background-color: var(--white-gray);
 }
-#service .container .service_details .row .service_item .image{
+#service .service_details .row .service_item .image{
     padding: 62px 20px;
     background-color: var(--dark-gray);
 }
-#service .container .service_details .row .service_item .details{
-    padding: 28px 20px;
+#service .service_details .row .service_item .details, #testimonial .review .details {
+    padding: 30px 20px;
     background-color: var(--light-gray);
 }
-#service .container .service_details .row .service_item .details h3{
+#service .service_details .row .service_item .details h3{
     font-size: 20px;
     font-weight: 400;
 }
@@ -153,4 +153,19 @@
 #portfolio{
     padding: 100px 0;
 }
+#portfolio .row{
+    padding: 60px 0;
+}
+  
 /* portfolio css end*/
+/* testimonia css start*/
+ #testimonial{
+    padding: 60px 0;
+    background-color: var(--white-gray);
+ } 
+ #testimonial .review .details h3{
+    font-size: 20px;
+    color: var(--dark-blue);    
+ }
+ 
+/* testimonia css end*/
