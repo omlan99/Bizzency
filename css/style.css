@@ -1,0 +1,156 @@
+/* root css start*/
+:root{
+    --dark-blue:#0f2f44;
+    --white-gray: #f5f5f5;
+    --dark-gray: #e9e9e9;
+    --light-gray: #ededed;
+    --white:#ffffff;
+    --purple: #8484bf;
+    --black: #222222;
+    --yellow:#ffc712;
+    --nav-hover:#fff9e6;
+}  
+/* root css end*/
+
+/* topbar css start*/
+#topbar{
+    background-color: var(--dark-blue);
+    
+} 
+#topbar p{
+    color:var(--white)
+}
+/* topbar css end*/
+
+/* nav css start*/
+#navbarSupportedContent .nav-link{
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    transform: 0.4s;
+    
+}
+#navbarSupportedContent .nav-link:hover{
+    background-color: var(--nav-hover);
+    color: var(--yellow);
+}
+/* nav css end*/
+
+/* banner css start*/
+#banner{
+    height: 600px;
+}
+#banner .container{
+    padding: 142px 0;
+}
+#banner .container h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: var(--dark-blue);
+
+}
+#banner .container h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+#banner .container h3{
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--purple);
+    letter-spacing: 17px;
+}
+#banner .container p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 33px;
+}
+#banner .container a{
+    background-color: var(--purple);
+    color: var(--white);
+}
+/* banner css end*/
+
+/* about css start*/
+#about{
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+#about .container{
+    padding: 100px 0;
+}
+#about .btn{
+    margin-right: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* about css end*/ 
+/* skill css start*/
+#skill{
+    background-position: left;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}  
+
+/* skill css end*/ 
+/* service css start*/
+#service{
+    padding: 60px 0;
+    background-color: var(--white-gray);
+}
+#service .container .service_details .row .service_item .image{
+    padding: 62px 20px;
+    background-color: var(--dark-gray);
+}
+#service .container .service_details .row .service_item .details{
+    padding: 28px 20px;
+    background-color: var(--light-gray);
+}
+#service .container .service_details .row .service_item .details h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+#service .container .service_details .overlay{
+    position: absolute;
+    inset: 0;
+    background-color: var(--dark-blue);
+    transform: scale(0);
+    transition: 0.4s;
+}
+#service .container .service_details .overlay img{
+    padding:30px 155px 20px 155px;
+
+}
+#service .container .service_details .overlay h3{
+    font-size: 20px;
+    color: var(--white);
+    padding-top: 100px;
+    text-align: center;
+}
+#service .container .service_details .overlay a{
+    color: var(--dark-blue);
+    background-color: var(--white);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 20px);
+}
+#service .container .service_details .overlay a:hover{
+    background-color: var(--yellow);
+}
+#service .container .service_details .row .service_item:hover .overlay{
+    transform: scale(1);
+}
+/* service css end*/
+/* portfolio css start*/
+#portfolio{
+    padding: 100px 0;
+}
+/* portfolio css end*/
